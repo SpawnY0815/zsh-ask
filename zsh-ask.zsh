@@ -75,7 +75,7 @@ function _zsh_ask_show_version() {
   cat "$ZSH_ASK_PREFIX/VERSION"
 }
 
-function ask() {
+function ki() {
     local api_url=$ZSH_ASK_API_URL
     local api_key=$ZSH_ASK_API_KEY
     local conversation=$ZSH_ASK_CONVERSATION
