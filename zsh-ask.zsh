@@ -22,7 +22,7 @@ typeset -g ZSH_ASK_API_KEY="sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 # Default configurations
 (( ! ${+ZSH_ASK_MODEL} )) &&
-typeset -g ZSH_ASK_MODEL="gpt-3.5-turbo"
+typeset -g ZSH_ASK_MODEL="chatgpt-4o-latest"
 (( ! ${+ZSH_ASK_CONVERSATION} )) &&
 typeset -g ZSH_ASK_CONVERSATION=false
 (( ! ${+ZSH_ASK_INHERITS} )) &&
