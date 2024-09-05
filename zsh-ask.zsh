@@ -42,8 +42,8 @@ typeset -g ZSH_ASK_INITIALPROMPT="You are a large language model trained by Open
 
 function _zsh_ask_show_help() {
   echo "A lightweight Zsh plugin serves as a ChatGPT API frontend, enabling you to interact with ChatGPT directly from the Zsh."
-  echo "Usage: ask [options...]"
-  echo "       ask [options...] '<your-question>'"
+  echo "Usage: ki [options...]"
+  echo "       ki [options...] '<your-question>'"
   echo "Options:"
   echo "  -h                Display this help message."
   echo "  -v                Display the version number."
@@ -75,7 +75,7 @@ function _zsh_ask_show_version() {
   cat "$ZSH_ASK_PREFIX/VERSION"
 }
 
-function ask() {
+function ki() {
     local api_url=$ZSH_ASK_API_URL
     local api_key=$ZSH_ASK_API_KEY
     local conversation=$ZSH_ASK_CONVERSATION
